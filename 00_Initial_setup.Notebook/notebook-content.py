@@ -8,8 +8,9 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse_name": "",
-# META       "default_lakehouse_workspace_id": ""
+# META       "default_lakehouse": "78caada6-0dcd-4a02-8bab-ec6844750c0b",
+# META       "default_lakehouse_name": "storage",
+# META       "default_lakehouse_workspace_id": "e63c68a6-5578-4de1-9d62-7787a0037218"
 # META     }
 # META   }
 # META }
@@ -101,7 +102,7 @@ notebookutils.notebook.run("Process_Data_Every_24_Hours", 2000,{"Nbr_Files_to_Do
 
 # CELL ********************
 
-%pip -q install semantic-link-labs
+%pip -q install semantic-link-labs==0.8.6
 
 # METADATA ********************
 
